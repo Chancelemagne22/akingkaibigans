@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>MERRY CHRISTMAS AND HAPPY HOLIDAY MY FRIENDS</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="firstpic">
+            <img src="Wholepicture.jpg" alt="Group Pic">
+            <h1>MERRY CHRISTMAS AND HAPPY HOLIDAY!!!!</h1>
+            <p id = "icon">Click me</p>
+            <audio id ="mySongs">
+                <source src="bells.mp3" type="audio/mp3">
+            </audio>
+            <script>
+                var mySongs = document.getElementById("mySongs");
+                var icon= document.getElementById("icon");
+
+                icon.onclick = function(){
+                    mySongs.play();
+                }
+
+            </script>
+
+        </div>
+    </body>
+</html>
